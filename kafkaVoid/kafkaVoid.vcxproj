@@ -116,7 +116,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>User32.lib;
 Gdi32.lib;
-Comctl32.lib
+Comctl32.lib;UxTheme.lib
 ;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

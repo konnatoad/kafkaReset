@@ -1,0 +1,87 @@
+# Ignore build folders
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+
+# Ignore temporary files
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+*.ipch
+*.iobj
+*.ipdb
+*.aps
+*.cache
+*.dll
+*.exe
+*.exp
+*.lib
+*.tlb
+*.tli
+*.tlh
+*.manifest
+*.o
+*.res
+*.sbr
+*.scc
+*.ninja_deps
+*.ninja_log
+
+# Ignore Windows-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore generated binaries
+KafkaReset.exe
+KafkaReset.dll
+KafkaReset.pdb
+KafkaReset.ilk
+
+# Ignore CMake & Premake generated files (if applicable)
+CMakeCache.txt
+CMakeFiles/
+Makefile
+CMakeLists.txt.user
+build/
+
+# Ignore JetBrains IDEs
+.idea/
+
+# Ignore temporary backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Ignore dependency package manager files
+.nuget/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Ignore logs and debug files
+*.log
+*.tlog
+*.obj
+*.iobj
+*.ipdb
+*.ipch

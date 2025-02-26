@@ -85,3 +85,6 @@ packages/
 *.iobj
 *.ipdb
 *.ipch
+
+# Ignore Visual Studio Auto-Recover files
+*.AutoRecover.*
